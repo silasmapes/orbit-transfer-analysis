@@ -23,7 +23,7 @@ function [dv_ho, dv_bi] = transfer(a,b)
 
     % Delta V Calcualtions
     dv_ho = 1/sqrt(a) - (sqrt(2)*(1-a))/sqrt(a*(1+a)) - 1;
-    dv_bi = (sqrt(2*b/(1+b))-1) + (sqrt(2*a/(b*(a+b))) - sqrt(2/(b*(1+b)))) + (sqrt(2*b/(a*(a+b))) - sqrt(1/a));
+    dv_bi = abs(sqrt(2*b/(1+b))-1) + abs(sqrt(2*a/(b*(a+b))) - sqrt(2/(b*(1+b)))) + abs(sqrt(2*b/(a*(a+b))) - sqrt(1/a));
     
     % Orbit Setup
     rA = 1;
