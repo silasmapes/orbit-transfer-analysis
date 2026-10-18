@@ -66,7 +66,7 @@ function [dv_bi] = bielliptic(a,b)
     hold on
 
     % Delta V Calcualtions
-    dv_bi = (sqrt(2*b/(1+b))-1) + (sqrt(2*a/(b*(a+b))) - sqrt(2/(b*(1+b)))) + (sqrt(2*b/(a*(a+b))) - sqrt(1/a));
+    dv_bi = abs(sqrt(2*b/(1+b))-1) + abs(sqrt(2*a/(b*(a+b))) - sqrt(2/(b*(1+b)))) + abs(sqrt(2*b/(a*(a+b))) - sqrt(1/a));
     
     % Orbit Setup
     rA = 1;
