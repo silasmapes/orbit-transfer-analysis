@@ -4,4 +4,4 @@ This is the final project for AE 313 Space Mechanics with the following goals:
 * Use MATLAB to recreate two graphs that compare the two transfer types (these graphs aren't original and come from class material)
 * Plot transfer trajectories in a variety of given scenarios to demonstrate the differences in the two orbit types
 
-![Comparison graph](Comparison Graphs/Comparison_Graph_1.png)
+![Comparison graph](Comparison_Graphs/Comparison_Graph_1.png)
